@@ -111,6 +111,48 @@
   &__message-list{
     height:calc(100vh - 190px);
     background-color: #fafafa;
+    .messages{
+      margin-left: 40px;
+      position: absolute;
+      .message1{
+        margin-top: 35px;
+        &__name{
+          color: #333333;
+          font-size: 16px;
+          display: inline-block;
+        }
+        &__date{
+          color: #999999;
+          font-size: 12px;
+          display: inline-block;
+        }
+        &__text{
+          color: #434a54;
+          font-size: 14px;
+        }
+
+      }
+      .message2{
+        margin-top: 46px;
+        &__name{
+          color: #333333;
+          font-size: 16px;
+          display: inline-block;
+        }
+        &__date{
+          color: #999999;
+          font-size: 12px;
+          display: inline-block;
+        }
+        &__text{
+          color: #434a54;
+          font-size: 14px;
+        }
+
+      }
+
+    }
+    
   }
   &__message-form{
     height:90px;
