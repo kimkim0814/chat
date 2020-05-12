@@ -1,6 +1,6 @@
-// * {
-//   box-sizing: border-box;
-// }
+ * {
+ box-sizing: border-box;
+}
 .wrapper{
   display:flex
 }
@@ -26,7 +26,19 @@
         &__icons{
           width: 60px;
           line-height: 20px;
+          display:flex;
+          justify-content: flex-end;
           
+          &__new{
+            color:#ffffff;
+            margin-right: 5px;
+            
+          }
+          &__cog{
+            color:#ffffff;
+            
+          }
+
           
         }
         
