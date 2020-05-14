@@ -47,24 +47,24 @@
       }
   }
   &__group-list{
-      height: calc( 100vh - 100px );
-      background-color: #2f3e51;
-      .groups{
-        position: absolute;
-        height: 65px;
+    height: calc( 100vh - 100px );
+    background-color: #2f3e51;
+    .group{
+      position: absolute;
+      height: 65px;
         &__name{
           margin-top: 20px;
           margin-left: 20px;
           font-size:15px;
-          color: #ffffff;
+          color: #ffffff    
           
-        }
+          }
         &__message{
           margin-top: 5px;
           margin-left: 20px;
           font-size: 11px;
           color: #ffffff;
-        }
+          }
       }
   }
 
@@ -209,3 +209,6 @@
   }
   
 
+a{
+  text-decoration: none;
+}
