@@ -50,11 +50,10 @@
     height: calc( 100vh - 100px );
     background-color: #2f3e51;
     .group{
-      position: absolute;
       height: 65px;
         &__name{
-          margin-top: 20px;
-          margin-left: 20px;
+          padding-top: 20px;
+          padding-left: 20px;
           font-size:15px;
           color: #ffffff    
           
@@ -156,7 +155,7 @@
     height:90px;
     background-color: #d2d2d2;
     display: flex;
-    width: calc(100vw-300px);
+    width: calc(100vw - 300px);
     .new__message{
       position: relative;
       width:calc(100% - 195px);
@@ -166,7 +165,7 @@
       margin-left:40px;
       
       .input-box{
- 
+       
       
           .type-message{
             width: 100%;
@@ -211,4 +210,9 @@
 
 a{
   text-decoration: none;
+}
+
+.new_message{
+  display: flex;
+  width: 100%;
 }
