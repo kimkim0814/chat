@@ -64,6 +64,7 @@ gem 'devise'
 
 gem 'pry-rails'
 gem 'carrierwave'
+gem 'fog-aws'
 gem 'mini_magick'
 gem 'rails-i18n'
 gem 'jquery-rails'
@@ -79,3 +80,4 @@ group :development, :test do
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
 end
+
