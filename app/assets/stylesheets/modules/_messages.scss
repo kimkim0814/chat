@@ -119,11 +119,13 @@
     background-color: #fafafa;
     
     .messages{
-      margin-left: 40px;
+      padding: 46px 40px;
       position: absolute;
       height:calc(100vh - 190px);
       overflow:auto;
       width:100%;
+      font-size: 16px;
+      color: #333333;
 
     }
     
@@ -194,3 +196,24 @@ a{
   display: flex;
   width: 100%;
 }
+
+.upper-message__date{
+  color: #999999;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.upper-message{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.lower-message{
+  padding-bottom:40px;
+  &__content{
+    color:#434A54 ;
+  }
+
+}
+
+
