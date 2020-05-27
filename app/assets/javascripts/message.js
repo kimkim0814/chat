@@ -60,11 +60,14 @@ $('#new_message').on('submit', function(e){
     $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
     $('.message_content').val('')
     $('form')[0].reset();
-    $('.submit').prop('disabled',false);
   })
   .fail(function() {
     alert("メッセージ送信に失敗しました");
-});
+    
+  })
+  .always(function(){
+    $('.submit').prop('disabled',false);
+  })
 })
 var reloadMessages = function() {
 var last_message_id=$('.message:last').data('message-id');
